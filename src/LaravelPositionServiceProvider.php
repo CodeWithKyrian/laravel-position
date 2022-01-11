@@ -59,8 +59,8 @@ class LaravelPositionServiceProvider extends ServiceProvider
                 $joinText ??=  config('position.join_text');
                 
                 if ($index != 0) {
+                    if ($skip) $rank++;
                     if (get_prop($prev, $key) != get_prop($value, $key)) {
-                        if ($skip) $rank++;
                         $prev = $value;
                         $rank++;
                         $skip = false;
