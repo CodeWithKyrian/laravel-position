@@ -1,8 +1,8 @@
 # Laravel Position
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/codewithkyrian/laravel-position.svg?style=flat-square)](https://packagist.org/packages/codewithkyrian/laravel-position)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/codewithkyrian/laravel_position.svg?style=flat-square)](https://packagist.org/packages/codewithkyrian/laravel_position)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/codewithkyrian/laravel-position/Check%20&%20fix%20styling?label=code%20style)](https://github.com/codewithkyrian/laravel-position/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/codewithkyrian/laravel-position.svg?style=flat-square)](https://packagist.org/packages/codewithkyrian/laravel-position)
+[![Total Downloads](https://img.shields.io/packagist/dt/codewithkyrian/laravel_position.svg?style=flat-square)](https://packagist.org/packages/codewithkyrian/laravel_position)
 
 A simple extensible laravel collection macro that evaluates the position or ranking of items in a collection and appends the position to each item with a key of your choice. The default key is 'position'
 
@@ -11,7 +11,7 @@ A simple extensible laravel collection macro that evaluates the position or rank
 You can install the package via composer:
 
 ```bash
-composer require codewithkyrian/laravel-position
+composer require codewithkyrian/laravel_position
 ```
 
 You can publish the config file with:
