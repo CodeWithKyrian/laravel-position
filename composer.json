@@ -1,7 +1,7 @@
 {
     "name": "codewithkyrian/laravel_position",
     "description": "A simple extensible laravel collection macro that evaluates the position or ranking of items in a collection and appends the position to each item with a key of your choice.",
-    "type": "project",
+    "type": "library",
     "keywords": [
         "CodeWithKyrian",
         "laravel",
