@@ -1,0 +1,37 @@
+{
+    "name": "codewithkyrian/laravel_position",
+    "description": "A simple extensible laravel collection macro that evaluates the position or ranking of items in a collection and appends the position to each item with a key of your choice.",
+    "type": "project",
+    "keywords": [
+        "CodeWithKyrian",
+        "laravel",
+        "laravel-position"
+    ],
+    "homepage": "https://github.com/codewithkyrian/laravel-position",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codewithkyrian\\LaravelPosition\\": "src/"
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kyrian Obikwelu",
+            "email": "Koshnawaza@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codewithkyrian\\LaravelPosition\\LaravelPositionServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
