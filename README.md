@@ -1,10 +1,10 @@
-# A simple extensible laravel collection macro that evaluates the position or ranking of items in a collection and appends the position to each item with a key of your choice. The default key is 'position'
+# Laravel Position
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/codewithkyrian/laravel-position.svg?style=flat-square)](https://packagist.org/packages/codewithkyrian/laravel-position)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/codewithkyrian/laravel-position/Check%20&%20fix%20styling?label=code%20style)](https://github.com/codewithkyrian/laravel-position/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/codewithkyrian/laravel-position.svg?style=flat-square)](https://packagist.org/packages/codewithkyrian/laravel-position)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+A simple extensible laravel collection macro that evaluates the position or ranking of items in a collection and appends the position to each item with a key of your choice. The default key is 'position'
 
 ## Installation
 
